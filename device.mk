@@ -413,7 +413,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RemovePkgs
 
 # RenderScript
 PRODUCT_PACKAGES += \
