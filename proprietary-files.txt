@@ -1,32 +1,33 @@
 # All unpinned blobs here are extracted from raphael-user 11 RKQ1.200826.002 21.4.29 release-keys
 
-# ADSPRPC
-vendor/bin/adsprpcd
-vendor/bin/cdsprpcd
-vendor/bin/dspservice
-vendor/bin/loadalgo
-vendor/etc/init/vendor.qti.adsprpc-service.rc
-vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
-vendor/lib/libadsp_default_listener.so
--vendor/lib/libadsprpc.so
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libfastcrc.so
-vendor/lib/libfastrpc_utf_stub.so
-vendor/lib/libmdsprpc.so
--vendor/lib/libsdsprpc.so
-vendor/lib/vendor.qti.hardware.dsp@1.0.so
-vendor/lib64/libadsp_default_listener.so
--vendor/lib64/libadsprpc.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libfastrpc_utf_stub.so
-vendor/lib64/libloadalgo_stub.so
-vendor/lib64/libmdsprpc.so
--vendor/lib64/libsdsprpc.so
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+# ADSPRPC - from LA.UM.9.1.r1-09600-SMxxx0.0
+vendor/bin/adsprpcd|0f466eb88de7ea81ef036037b3e546ea
+vendor/bin/loadalgo|5022457f1673e40470afcdb44f0fe434
+vendor/bin/dspservice|1ddb82cf3f07381011f5df4a818941a7
+vendor/bin/cdsprpcd|0c6e60eaa0edafb632976f24fe152845
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f3dcc9082178125f60af6b8be46b078c
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|037500c928ea26ee071de5f1592e8c20x
+vendor/etc/init/vendor.qti.cdsprpc-service.rc|f73f015c1e2adb3025b9c557297d7147
+vendor/etc/init/vendor.qti.adsprpc-service.rc|eef5f61c02bf7661c77d73c8d963df72
+vendor/lib/libcdsprpc.so|79662f32d9ee8fb41201d13125b48436
+vendor/lib/libcdsp_default_listener.so|281df6bab2ab596ff9fb12032af09672
+-vendor/lib/libsdsprpc.so|c5c3a0ca6143b2b43d86b0dcdb072f86
+vendor/lib/libadsp_default_listener.so|1f75280e8e35699a5eb9182df4fae86d
+-vendor/lib/libadsprpc.so|76eee5233efb60c6d90405f2378a1093
+vendor/lib/libmdsprpc.so|fc216a1d1f3a9553198ffbc9ea32fb70
+vendor/lib/libsysmon_cdsp_skel.so|417cd9afe48f1db377014375e4ec3d57
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|97d8999d7676c6dd5302333dc5cadb4f
+vendor/lib/libfastrpc_utf_stub.so|d9e3b05bbb354f246d39880b88fc0d7e
+vendor/lib64/libcdsprpc.so|00e09fa94a8c594ce25fbaf0fbb29cc0
+vendor/lib64/libcdsp_default_listener.so|51891fb56a3cfd0fde4050670b24ac21
+-vendor/lib64/libsdsprpc.so|412e9272042fbb8f1fba57c927359dc5
+vendor/lib64/libadsp_default_listener.so|a5b3060bd90ae8f3ad97ea229f99f8a3
+-vendor/lib64/libadsprpc.so|a2d42588160b9598c46407f54b8d92f2
+vendor/lib64/libmdsprpc.so|d5812cd88ec0a8170eff041fee27a77b
+vendor/lib64/libsysmon_cdsp_skel.so|73ab3dbd6cb5b0d46fd8a7189e3829ba
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|cb14b8a50a23c2c9c70d164c4568b56c
+vendor/lib64/libfastrpc_utf_stub.so|9e97b7214e3e71bfbdf08b42ed1ce793
+vendor/lib64/libloadalgo_stub.so|c68269657b2e8e97d073a7431375a056
 
 # ADSP-Modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
@@ -345,7 +346,6 @@ vendor/lib/libnanopb.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libswregistrationalgo.so
-vendor/lib/libsysmon_cdsp_skel.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
@@ -506,7 +506,6 @@ vendor/lib64/libSNPE.so
 vendor/lib64/libsnpe_dsp_domains_v2.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libsysmon_cdsp_skel.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvidhance.so
